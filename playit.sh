@@ -4,4 +4,5 @@ curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee 
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
 sudo apt update
 sudo apt install playit -y
-echo run with run-playit.sh
+playit
+echo Next time just run it as playit in your console!
