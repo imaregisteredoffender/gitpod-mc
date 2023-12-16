@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update
+clear
 
 echo "Made for Gitpod by Ariez"
 
